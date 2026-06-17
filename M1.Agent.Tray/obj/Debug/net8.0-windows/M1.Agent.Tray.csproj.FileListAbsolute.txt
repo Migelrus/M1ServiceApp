@@ -1,0 +1,14 @@
+E:\M1ServiceApp\M1.Agent.Tray\bin\Debug\net8.0-windows\M1.Agent.Tray.exe
+E:\M1ServiceApp\M1.Agent.Tray\bin\Debug\net8.0-windows\M1.Agent.Tray.deps.json
+E:\M1ServiceApp\M1.Agent.Tray\bin\Debug\net8.0-windows\M1.Agent.Tray.runtimeconfig.json
+E:\M1ServiceApp\M1.Agent.Tray\bin\Debug\net8.0-windows\M1.Agent.Tray.dll
+E:\M1ServiceApp\M1.Agent.Tray\bin\Debug\net8.0-windows\M1.Agent.Tray.pdb
+E:\M1ServiceApp\M1.Agent.Tray\obj\Debug\net8.0-windows\M1.Agent.Tray.GeneratedMSBuildEditorConfig.editorconfig
+E:\M1ServiceApp\M1.Agent.Tray\obj\Debug\net8.0-windows\M1.Agent.Tray.AssemblyInfoInputs.cache
+E:\M1ServiceApp\M1.Agent.Tray\obj\Debug\net8.0-windows\M1.Agent.Tray.AssemblyInfo.cs
+E:\M1ServiceApp\M1.Agent.Tray\obj\Debug\net8.0-windows\M1.Agent.Tray.csproj.CoreCompileInputs.cache
+E:\M1ServiceApp\M1.Agent.Tray\obj\Debug\net8.0-windows\M1.Agent.Tray.dll
+E:\M1ServiceApp\M1.Agent.Tray\obj\Debug\net8.0-windows\refint\M1.Agent.Tray.dll
+E:\M1ServiceApp\M1.Agent.Tray\obj\Debug\net8.0-windows\M1.Agent.Tray.pdb
+E:\M1ServiceApp\M1.Agent.Tray\obj\Debug\net8.0-windows\M1.Agent.Tray.genruntimeconfig.cache
+E:\M1ServiceApp\M1.Agent.Tray\obj\Debug\net8.0-windows\ref\M1.Agent.Tray.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "M1.Agent.Tray/1.0.0": {
+        "runtime": {
+          "M1.Agent.Tray.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "M1.Agent.Tray/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
