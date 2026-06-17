@@ -1,0 +1,45 @@
+<Window x:Class="M1.Admin.UI.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="M1 Admin - Вход"
+        Height="350" Width="400"
+        WindowStartupLocation="CenterScreen"
+        Background="#f5f5f5" Foreground="#1a1a1a"
+        ResizeMode="NoResize">
+
+    <Grid Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="M1 Admin Console" FontSize="22" FontWeight="Bold" Foreground="#0078d4" Margin="0,0,0,5"/>
+        <TextBlock Grid.Row="1" Text="Войдите для доступа к управлению" FontSize="13" Foreground="#888" Margin="0,0,0,20"/>
+
+        <TextBlock Grid.Row="2" Text="Адрес сервера" Foreground="#666" Margin="0,0,0,3"/>
+        <TextBox Grid.Row="2" x:Name="ServerBox" Text="http://192.168.1.85:5230" 
+                 Background="#fff" BorderBrush="#ccc" Padding="8" Margin="0,0,0,10"/>
+
+        <TextBlock Grid.Row="3" Text="Логин" Foreground="#666" Margin="0,0,0,3"/>
+        <TextBox Grid.Row="3" x:Name="LoginBox" Background="#fff" BorderBrush="#ccc" Padding="8" Margin="0,0,0,10"/>
+
+        <TextBlock Grid.Row="4" Text="Пароль" Foreground="#666" Margin="0,0,0,3"/>
+        <PasswordBox Grid.Row="4" x:Name="PasswordBox" Background="#fff" BorderBrush="#ccc" Padding="8" Margin="0,0,0,5"/>
+
+        <StackPanel Grid.Row="5" Orientation="Horizontal" Margin="0,5,0,15">
+            <CheckBox x:Name="RememberCheck" Content="Запомнить" Foreground="#666" VerticalAlignment="Center"/>
+            <TextBlock Text="Данные сохраняются локально" FontSize="11" Foreground="#aaa" Margin="10,0,0,0" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="6" VerticalAlignment="Bottom">
+            <TextBlock x:Name="ErrorText" Foreground="#d32f2f" FontSize="12" Margin="0,0,0,10" TextWrapping="Wrap"/>
+            <Button Content="Войти" Click="Login_Click" Background="#0078d4" Foreground="White" 
+                    Padding="0,12" FontSize="15" FontWeight="Bold" BorderThickness="0" Cursor="Hand"/>
+        </StackPanel>
+    </Grid>
+</Window>
